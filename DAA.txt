@@ -1,0 +1,52 @@
+What is Greedy algorithm?
+A greedy algorithm is an approach for solving a problem by selecting the best option available at the moment. It doesn't worry whether the current best result will bring the overall optimal result.
+The algorithm never reverses the earlier decision even if the choice is wrong. It works in a top-down approach.
+Choice made at each step should be:
+Feasible
+Locally optimal
+Irrevocable
+O(N * logN)
+
+What is Huffman Encoding?
+Huffman coding is a lossless data compression algorithm. The idea is to assign variable-length codes to input characters, lengths of the assigned codes are based on the frequencies of corresponding characters. Huffman code is a way to encode information using variable-length strings to represent symbols depending on how frequently they appear. The idea is that symbols that are used more frequently should be shorter while symbols that appear more rarely can be longer.
+
+What is knapsack problem?
+The Knapsack problem is an example of the combinational optimization problem. This problem is also commonly known as the “Rucksack Problem“. 
+Given a bag with maximum weight capacity of W and a set of items, each having a weight and a value associated with it. Decide the number of each item to take in a collection such that the total weight is less than the capacity and the total value is maximized.
+Types of Knapsack Problem:
+The knapsack problem can be classified into the following types:
+Fractional Knapsack Problem:Given the weights and values of N items, put these items in a knapsack of capacity W to get the maximum total value in the knapsack. In Fractional Knapsack, we can break items for maximizing the total value of the knapsack. O(N * logN) Space O(N)
+0/1 Knapsack Problem:We are given N items where each item has some weight (wi) and value (vi) associated with it. We are also given a bag with capacity W. The target is to put the items into the bag such that the sum of values associated with them is the maximum possible.
+Note that here we can either put an item completely into the bag or cannot put it at all. O(N * W) Space O(N * W) + O(N)
+Bounded Knapsack Problem
+Unbounded Knapsack Problem
+
+What is dynamic programming?
+Dynamic Programming is mainly an optimization over plain recursion. Wherever we see a recursive solution that has repeated calls for same inputs, we can optimize it using Dynamic Programming. The idea is to simply store the results of subproblems, so that we do not have to re-compute them when needed later. This simple optimization reduces time complexities from exponential to polynomial.
+Dynamic programming is a computer programming technique where an algorithmic problem is first broken down into sub-problems, the results are saved, and then the sub-problems are optimized to find the overall solution — which usually has to do with finding the maximum and minimum range of the algorithmic query.
+For example, if we write simple recursive solution for Fibonacci Numbers, we get exponential time complexity and if we optimize it by storing solutions of subproblems, time complexity reduces to linear.
+
+what is backtracking?
+Backtracking is like trying different paths, and when you hit a dead end, you backtrack to the last choice and try a different route.
+Backtracking is a problem-solving algorithmic technique that involves finding a solution incrementally by trying different options and undoing them if they lead to a dead end. It is commonly used in situations where you need to explore multiple possibilities to solve a problem, like searching for a path in a maze or solving puzzles like Sudoku. When a dead end is reached, the algorithm backtracks to the previous decision point and explores a different path until a solution is found or all possibilities have been exhausted.
+Exponential (O(K^N))
+Factorial (O(N!))
+
+What is Branch and Bound Algorithm?
+Branch and bound algorithms are used to find the optimal solution for combinatory, discrete, and general mathematical optimization problems. In general, given an NP-Hard problem, a branch and bound algorithm explores the entire search space of possible solutions and provides an optimal solution.A branch and bound algorithm consist of stepwise enumeration of possible candidate solutions by exploring the entire search space. With all the possible solutions, we first build a rooted decision tree. The root node represents the entire search space:
+Here, each child node is a partial solution and part of the solution set. Before constructing the rooted decision tree, we set an upper and lower bound for a given problem based on the optimal solution. At each level, we need to make a decision about which node to include in the solution set. At each level, we explore the node with the best bound. In this way, we can find the best and optimal solution fast.
+Now it is crucial to find a good upper and lower bound in such cases. We can find an upper bound by using any local optimization method or by picking any point in the search space. On the other hand, we can obtain a lower bound from convex relaxation or duality.
+In general, we want to partition the solution set into smaller subsets of solution. Then we construct a rooted decision tree, and finally, we choose the best possible subset (node) at each level to find the best possible solution set.
+If the given problem is a discrete optimization problem, a branch and bound is a good choice.
+Branch and bound work efficiently on the combinatory optimization problems.
+
+combinatory optimization problems:A combinatorial optimization problem is the act of trying to find out the value (combination) of variables that optimizes an index (value) from among many options under various constraints.In this case, candidate solutions satisfying the logical conditions are called feasible or valid, and among those, optimal solutions can be distinguished based on their objective function value.
+
+What is N-Queen problem?
+The N Queen is the problem of placing N chess queens on an N×N chessboard so that no two queens attack each other.
+The idea is to place queens one by one in different columns, starting from the leftmost column. When we place a queen in a column, we check for clashes with already placed queens. In the current column, if we find a row for which there is no clash, we mark this row and column as part of the solution. If we do not find such a row due to clashes, then we backtrack and return false.
+O(N!) Space O(N)
+
+What is graph coloring problem?
+Graph coloring refers to the problem of coloring vertices of a graph in such a way that no two adjacent vertices have the same color. This is also called the vertex coloring problem. If coloring is done using at most m colors, it is called m-coloring.
+

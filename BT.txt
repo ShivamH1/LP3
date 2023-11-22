@@ -1,0 +1,71 @@
+What is metamask?
+MetaMask is an extension for Google Chrome browsers.It has the feature to store Ether or ERC20 based cryptocurrencies on a user’s device along with the interaction with Dapps. MetaMask is a software cryptocurrency wallet used to interact with the Ethereum blockchain. It allows users to access their Ethereum wallet through a browser extension or mobile app, which can then be used to interact with decentralized applications.
+
+types of cryptocurrency?
+Bitcoin, Ethereum, Dogecoin, Cardano, Ripple, Dash, Litecoin, etc.
+
+Benefits of metamask?
+This extension offers built-in exchange service and acts as a wallet to store, buy, sell, or trade Ethereum.
+This extension connects users with their MyEtherWallet, eliminating the need to enter private keys at the time of each transaction.
+This feature simplifies the process of transaction execution like creating and sending tokens.
+No need for the internet to access: As the account’s private key is stored in the user’s local device, users can access ETh even without the internet.
+One of the biggest advantages to the user is zero exchange fees or rates. The users do not need to spend fees while converting crypto coins for cash and vice versa.
+
+Give the difference between Digital Currency and Cryptocurrency?
+A currency entirely available on a digital medium is termed digital currency. All the transactions done in digital currencies are entirely virtual, and it does not have any computer network. these currencies do not have any physical form, they are instant to transfer and trade. These currencies can be converted to other physical money and used similarly. It is easy to use digital currency for small transactions in a store and donating to a charity; all this can be done through an online virtual tender.There are majorly three varieties of digital currencies which are:
+Cryptocurrency
+Central Bank Digital Currency(CBDCs),
+Stablecoins.
+Cryptocurrencies are decentralized, but they can have some centralized characteristics. It is one type of virtual money, but some features make it different from digital currency.All the cryptocurrencies that exist today are on a blockchain. All the transactions that happen in crypto are stored in their native blockchain. Each blockchain has various blocks on which some finite numbers of transactions get stored. Being a decentralized currency, crypto data is shared with multiple connection nodes. This kind of connection ensures that no particular person has the majority of the network controls.
+
+Centralization
+Encryption:When it comes to encryption, cryptocurrency overtakes digital currency. 
+Transparency:The details regarding a digital currency are between the service provider banking authorities, senders, and their receivers. In such cases, if any fraud or money loss occurs, there is very little proof to prove your ownership of that money. Other than that, when there is a conflict in digital currencies, there are legalities and bureaucratic hurdles for the people.
+In cryptocurrencies, all the information regarding the transactions is in the public domain due to its decentralized ledger, while the records are all in the blockchains. There is a high risk in crypto during transactions, but the records are safe within the blocks. In the public domain, everyone can access the information and see the transaction details.
+Stability:Currency stability is the consistency in its monetary value as per the market. Digital currencies are considered stable and easy to manage during transactions as it is accepted worldwide. 
+Legality:As the government backs up the digital currency, it has gained people’s trust as regulations control them, and investors consider them safe. 
+
+Explain Bitcoin.
+Bitcoin a decentralized digital currency. Bitcoin transactions are verified by network nodes through cryptography and recorded in a public distributed ledger called a blockchain.
+
+Explain smart contracts and its types
+Smart contracts refer to computer protocols that digitally facilitate the verification, control, or execution  of an agreement. Smart contracts run on the blockchain platform, which will process all the transactions in a contract; hence, middle men are not required for executing the transactions.Similar to traditional contracts, smart contracts define rules and penalties around an agreement and automatically enforce those obligations. 
+Smart Legal Contracts
+Decentralized Autonomous Organizations (DAO)
+Application Logic Contracts (ALC)
+
+What is Etherum?
+Ethereum is a decentralized blockchain with smart contract functionality. Ether is the native cryptocurrency of the platform. Among cryptocurrencies, ether is second only to bitcoin in market capitalization. It is open-source software.Ethereum is a decentralized blockchain platform that establishes a peer-to-peer network that securely executes and verifies application code, called smart contracts. Smart contracts allow participants to transact with each other without a trusted central authority.
+
+Explain EVM- Etherum Virtual Machine?
+The Ethereum Virtual Machine (EVM) is the computation engine for Ethereum that manages the state of the blockchain and enables smart contract functionality. The EVM is contained within the client software (e.g., Geth, Nethermind, and more) that you need in order to run a node on Ethereum.Nodes on Ethereum keep copies of transaction data, which the EVM processes to update the distributed ledger. Generally speaking, nodes on Ethereum natively support the EVM as the client software implements this functionality.
+
+What is Solidity? Explain importance of Solidity?
+Solidity is a javascript like a language used to code smart contracts on the Ethereum platform. It
+compiles into a bytecode format that is understood by the Ethereum Virtual machine (EVM).
+It’s a strongly typed language with the ability to define custom data structures. Pragma: The
+first line of any solidity code is a pragma directive which tells that the source code is written for
+solidity version 0.4.0 o ant newer that does not brake functionality up to, but not including,
+version 0.6.0. A pragma directive is always local to a source file and if you import another file,
+the pragma from that file will not automatically apply t the importing file.
+
+What is Fall Back Function?
+In Solidity, a fallback function is an external function with neither a name, parameters, or return
+values. It is executed in one of the following cases:  If a function identifier doesn’t match any
+of the available functions in a smart contract.  If there was no data supplied along with the
+function call. Only one such unnamed function can be assigned to a contract. Properties of the
+fallback function  They are unnamed functions.  They cannot accept arguments.  They
+cannot return anything.  There can be only one fallback function in a smart contract.  It is
+compulsory to mark it external.  It should be marked as payable. If not, the contract will throw an
+exception if it receives ether without any data.  It is limited to 2300 gas if invoked by other functions.
+
+Explain types of Blockchain Platform?
+There are four main types of blockchain networks: public blockchains, private blockchains, consortium blockchains and hybrid blockchains. 
+Public:
+This is where cryptocurrency like Bitcoin originated and helped to popularize distributed ledger technology (DLT). It removes the problems that come with centralization, including less security and transparency. DLT doesn't store information in any one place, instead distributing it across a peer-to-peer network. Its decentralized nature requires some method for verifying the authenticity of data. That method is a consensus algorithm whereby participants in the blockchain reach agreement on the current state of the ledger. Proof of work (PoW) and proof of stake (PoS) are two common consensus methods.
+Private:
+ A blockchain network that works in a restrictive environment like a closed network, or that is under the control of a single entity, is a private blockchain. While it operates like a public blockchain network in the sense that it uses peer-to-peer connections and decentralization, this type of blockchain is on a much smaller scale. Instead of just anyone being able to join and provide computing power, private blockchains typically are operated on a small network inside a company or organization. They're also known as permissioned blockchains or enterprise blockchains.
+Hybrid: Combination of Public and Private
+Consortium:The fourth type of blockchain, consortium blockchain, also known as a federated blockchain, is similar to a hybrid blockchain in that it has private and public blockchain features. But it's different in that multiple organizational members collaborate on a decentralized network. Essentially, a consortium blockchain is a private blockchain with limited access to a particular group, eliminating the risks that come with just one entity controlling the network on a private blockchain.
+In a consortium blockchain, the consensus procedures are controlled by preset nodes. It has a validator node that initiates, receives and validates transactions. Member nodes can receive or initiate transactions.
+

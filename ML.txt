@@ -1,0 +1,51 @@
+What is machine learning?
+Field of study that gives computers the capability to learn without being explicitly programmed. The process starts with feeding good quality data and then training our machines(computers) by building machine learning models using the data and different algorithms. The choice of algorithms depends on what type of data we have and what kind of task we are trying to automate.Machine Learning is a branch of artificial intelligence that develops algorithms by learning the hidden patterns of the datasets used it to make predictions on new similar type data, without being explicitly programmed for each task.
+
+Outliers:Outliers are those data points that are significantly different from the rest of the dataset.
+Correlation:A correlation is the statistical summary of the relationship between two sets of variables. 
+r2:R-squared is a statistical measure that represents the goodness of fit of a regression model. The value of R-square lies between 0 to 1. Where we get R-square equals 1 when the model perfectly fits the data and there is no difference between the predicted value and actual value.
+RMSE:Root Mean Squared Error (RMSE) is a popular metric used in machine learning and statistics to measure the accuracy of a predictive model. It quantifies the differences between predicted values and actual values, squaring the errors, taking the mean, and then finding the square root. The lower rmse better a model fits a dataset.
+Local minima:Local minima are places where the function attains its smallest value in a neighbourhood of a point. 
+Local maxima:A local maximum is a point in a mathematical function where it reaches its maximum value within a given range. 
+Confusion Matrix:A confusion matrix is a matrix that summarizes the performance of a machine learning model on a set of test data. It is often used to measure the performance of classification models, which aim to predict a categorical label for each input instance. The matrix displays the number of true positives (TP), true negatives (TN), false positives (FP), and false negatives (FN) produced by the model on the test data.
+
+
+Types of Machine Learning?
+Supervised Machine Learning:Supervised learning is defined as when a model gets trained on a “Labelled Dataset”. Labelled datasets have both input and output parameters. In Supervised Learning algorithms learn to map points between inputs and correct outputs. It has both training and validation datasets labelled. 
+Two types:
+Classification: Classifying the data - differentiate between cats and dogs.
+Regression : A regression problem is when the output variable is a real or continuous value, such as “salary” or “weight”.
+Unsupervised Machine Learning:Unsupervised Learning Unsupervised learning is a type of machine learning technique in which an algorithm discovers patterns and relationships using unlabeled data. Unlike supervised learning, unsupervised learning doesn’t involve providing the algorithm with labeled target outputs. The primary goal of Unsupervised learning is often to discover hidden patterns, similarities, or clusters within the data, which can then be used for various purposes, such as data exploration, visualization, dimensionality reduction, and more.
+Types:
+Clustering:Clustering is the task of dividing the population or data points into a number of groups such that data points in the same groups are more similar to other data points in the same group and dissimilar to the data points in other groups. It is basically a collection of objects on the basis of similarity and dissimilarity between them. 
+Dimensionality Reduction:Dimensionality reduction is the process of reducing the number of features (or dimensions) in a dataset while retaining as much information as possible. This can be done for a variety of reasons, such as to reduce the complexity of a model, to improve the performance of a learning algorithm, or to make it easier to visualize the data. There are several techniques for dimensionality reduction, including principal component analysis (PCA)
+Semi-Supervised Machine Learning:Semi-Supervised learning is a machine learning algorithm that works between the supervised and unsupervised learning so it uses both labelled and unlabelled data.
+Reinforcement Learning:Reinforcement machine learning algorithm is a learning method that interacts with the environment by producing actions and discovering errors. Trial, error, and delay are the most relevant characteristics of reinforcement learning. This methods allows machines to automatically determine the ideal behaviour within specific context in order to maximize performance. This type of learning is crucial for applications that involve decision-making in unpredictable environments.
+
+Feature Engineering: Feature Creating -> Transformation -> Feature Extraction -> Feature Selection
+
+Preprocessing of Data: Get the dataset -> Import lib -> Import dataset -> Handling missing data -> Encoding categorical data -> Spliting the dataset into training and testing set -> Feature scaling
+
+What is Linear Regression in Machine learning?
+Linear regression is also a type of machine-learning algorithm more specifically a supervised machine-learning algorithm that learns from the labeled datasets and maps the data points to the most optimized linear functions. which can be used for prediction on new datasets. computes the linear relationship between a dependent variable and one or more independent features. The goal of the algorithm is to find the best linear equation that can predict the value of the dependent variable based on the independent variables.
+
+What is gradient descent algorithm?
+Gradient Descent is an iterative optimization algorithm that tries to find the optimum value (Minimum/Maximum) of an objective function. It is one of the most used optimization techniques in machine learning projects for updating the parameters of a model in order to minimize a cost function. The main aim of gradient descent is to find the best parameters of a model which gives the highest accuracy on training as well as testing datasets. In gradient descent, The gradient is a vector that points in the direction of the steepest increase of the function at a specific point. Moving in the opposite direction of the gradient allows the algorithm to gradually descend towards lower values of the function, and eventually reaching to the minimum of the function.
+
+What is the K-Nearest Neighbors Algorithm?
+K-Nearest Neighbours is one of the most basic yet essential classification algorithms in Machine Learning. It belongs to the supervised learning domain. Locate some clusters or groups. It does not require any assumptions about the underlying data distribution.It is a non-parametric method that makes predictions based on the similarity of data points in a given dataset. The K-NN algorithm works by finding the K nearest neighbors to a given data point based on a distance metric, such as Euclidean distance.
+
+What is support vector machine?
+Support Vector Machine (SVM) is a powerful machine learning algorithm used for linear or nonlinear classification, regression, and even outlier detection tasks. SVM algorithms are very effective as we try to find the maximum separating hyperplane between the different classes available in the target feature.Support Vector Machine (SVM) is a supervised machine learning algorithm. The main objective of the SVM algorithm is to find the optimal hyperplane in an N-dimensional space that can separate the data points in different classes in the feature space.
+
+What is Random Forest Algorithm?
+Random Forest is a popular machine learning algorithm that belongs to the supervised learning technique. It can be used for both Classification and Regression problems in ML. It is based on the concept of ensemble learning, which is a process of combining multiple classifiers to solve a complex problem and to improve the performance of the model. Random Forest is a classifier that contains a number of decision trees on various subsets of the given dataset and takes the average to improve the predictive accuracy of that dataset.Instead of relying on one decision tree, the random forest takes the prediction from each tree and based on the majority votes of predictions, and it predicts the final output.
+
+What is K means Clustering?
+K-Means Clustering is an Unsupervised Machine Learning algorithm, which groups the unlabeled dataset into different clusters.The goal of clustering is to divide the population or set of data points into a number of groups so that the data points within each group are more comparable to one another and different from the data points within the other groups. It is essentially a grouping of things based on how similar and different they are to one another. ‘K’ in the name of the algorithm represents the number of groups/clusters we want to classify our items into.
+First, we randomly initialize k points, called means or cluster centroids.
+We categorize each item to its closest mean and we update the mean’s coordinates, which are the averages of the items categorized in that cluster so far.
+We repeat the process for a given number of iterations and at the end, we have our clusters.
+The “points” mentioned above are called means because they are the mean values of the items categorized in them.
+
+
